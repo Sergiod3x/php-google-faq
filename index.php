@@ -127,9 +127,9 @@
                     $question = $faq['question'];
                     $answer = $faq['answer'];
                     
-                    echo "<div class='col-12 question '><h4> {$question} </h4></div>";
+                    echo "<div class='col-8 offset-2 question '><h4> {$question} </h4></div>";
                     echo "<br/>";
-                    echo "<div class='col-12 answer'> {$answer} </div>";
+                    echo "<div class='col-8 offset-2 answer'> {$answer} </div>";
                     echo "<br/>";
                 }
     ?>
